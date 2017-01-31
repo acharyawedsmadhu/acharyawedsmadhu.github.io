@@ -645,6 +645,14 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 	margin-bottom: 10px;
 }
 .big-logo h2 {
+	font-size: 2.5em;
+	position: relative;
+	font-family: "Josefin Sans", sans-serif;
+	text-transform: capitalize;
+	width: 370px;
+	left: -40px;
+}
+.big-logo p {
 	font-size: 3em;
 	position: relative;
 	font-family: "Josefin Sans", sans-serif;
@@ -652,7 +660,7 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 	width: 370px;
 	left: -40px;
 }
-.big-logo h2:after {
+.big-logo h2::after {
 	content: '';
 	background: url(../img/decor2.png) no-repeat;
 	position: absolute;
@@ -1654,7 +1662,7 @@ select option {
 	content: "";
 	display: block;
 	position: absolute;
-	background: url(../img/bottom-flower.png);
+	/*background: url(../img/bottom-flower.png);*/
 	width: 151px;
 	height: 197px;
 	bottom: 0px;
@@ -1671,7 +1679,7 @@ select option {
 	content: "";
 	display: block;
 	position: absolute;
-	background: url(../img/bottom-flower.png);
+	/*background: url(../img/bottom-flower.png);*/
 	width: 151px;
 	height: 197px;
 	bottom: 0px;
@@ -2606,7 +2614,7 @@ footer p {
 }
 
 .rsvp{
-	background: url(../img/160908_wb_background-dust-cream.jpg); 
+	background: url(../img/reddots.jpg); 
 	background-position: center;
 	/*background-size: cover;*/
 	background-attachment: fixed;
@@ -2624,12 +2632,13 @@ footer p {
 }
 
 .ourstory{
-	background: url(../img/heartsbglight.png); 
+	/*background: url(../img/Floral-Grey-Seamless-Pattern-For-Website-Background.jpg); */
+	background: url(../img/watercolour-invite-back.jpg); 
 	background-position: center;
-	/*background-size: cover;*/
 	background-attachment: fixed;
 	font-family: 'Flamenco', cursive;
 	font-size: 18px;
+	font-weight: bold;
 }
 
 .invite{
@@ -2637,4 +2646,20 @@ footer p {
 	background-position: center;
 	/*background-size: cover;*/
 	background-attachment: fixed;
+}
+
+.gallery-panel {
+	background: url(../img/flowers.jpg); 
+	background-position: center;
+	/*background-size: cover;*/
+	background-attachment: fixed;
+	/*font-family: 'Londrina Sketch', cursive;*/
+	font-size: 30px;
+	padding: 0px;
+	padding-top: 30px;
+	font-weight: bolder;
+}
+.gallery-pattern{
+	background-image: url(../img/pattern.png);
+	padding-top: 0px;
 }
