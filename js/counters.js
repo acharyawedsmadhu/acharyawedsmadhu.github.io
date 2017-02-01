@@ -331,12 +331,12 @@ $(document).ready(function () {
         labels: true,
         labelsOptions: {
             lang: {
-                days: 'days',
+                days: 'Days',
                 hours: 'hours',
                 minutes: 'minutes',
                 seconds: 'seconds'
             },
-            style: 'font-size:0.5em; text-transform:uppercase; font-family: \'Satisfy\', cursive; font-family: \'Caveat\', cursive;'
+            style: 'font-family: \'Satisfy\', cursive; font-family: \'Caveat\', cursive;'
         },
         style: {
             element: "",
@@ -345,37 +345,37 @@ $(document).ready(function () {
                 gauge: {
                     thickness: .02,
                     bgColor: "rgba(255,255,255,0.1)",
-                    fgColor: "rgba(255,255,255,1)",
+                    fgColor: "white",
                     lineCap: 'round'
                 },
-                textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:white;'
             },
             hours: {
                 gauge: {
                     thickness: .02,
                     bgColor: "rgba(255,255,255,0.1)",
-                    fgColor: "rgba(255,255,255,1)",
+                    fgColor: "white",
                     lineCap: 'round'
                 },
-                textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:white;'
             },
             minutes: {
                 gauge: {
                     thickness: .02,
                     bgColor: "rgba(255,255,255,0.1)",
-                    fgColor: "rgba(255,255,255,1)",
+                    fgColor: "white",
                     lineCap: 'round'
                 },
-                textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:white;'
             },
             seconds: {
                 gauge: {
                     thickness: .02,
                     bgColor: "rgba(255,255,255,0.1)",
-                    fgColor: "rgba(255,255,255,1)",
+                    fgColor: "white",
                     lineCap: 'round'
                 },
-                textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:rgba(255,255,255,0.7);'
+                textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:white;'
             },
         },
         onEndCallback: function () {
