@@ -727,7 +727,7 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 /* -3.3. About us
 -------------------------------------------------------------- */
 .intro-text {
-	margin: 20px auto 70px;
+	margin: 20px auto 20px;
 }
 .intro-text p {
 	padding: 0;
@@ -2609,26 +2609,29 @@ footer p {
 	/*font-family: 'Dawning of a New Day', cursive;*/
 	/*font-family: 'Stalemate', cursive;*/
 	/*font-family: 'Just Me Again Down Here', cursive;*/
-
+/*font-family: 'Just Me Again Down Here', cursive;*/
+/*font-family: 'Sunshiney', cursive;*/
+/*font-family: 'Princess Sofia', cursive;*/
 	font-size: 18px;
 }
 
 .rsvp{
-	background: url(../img/reddots.jpg); 
+	background: url(../img/red-pattern.gif); 
 	background-position: center;
 	/*background-size: cover;*/
 	background-attachment: fixed;
-	font-family: 'Satisfy', cursive;
 	font-family: 'Caveat', cursive;	
 	font-size: 2em;
 	padding: 0px;
 	padding-top: 40px;
+	color: lightgoldenrodyellow;
 }
 
 .rsvp-heading{
 	/*font-family: 'Satisfy', cursive;*/
 	font-family: 'Caveat', cursive;	
 	font-size: 2em;
+	color: lightgoldenrodyellow;
 }
 
 .ourstory{
@@ -2654,6 +2657,7 @@ footer p {
 	/*background-size: cover;*/
 	background-attachment: fixed;
 	/*font-family: 'Londrina Sketch', cursive;*/
+	/*font-family: 'Monofett', cursive;*/
 	font-size: 30px;
 	padding: 0px;
 	padding-top: 30px;
@@ -2662,4 +2666,36 @@ footer p {
 .gallery-pattern{
 	background-image: url(../img/pattern.png);
 	padding-top: 0px;
+}
+.map-section{
+	padding: 0px;
+}
+
+.thankyounote h2{
+	/*font-family: "lavanderia";*/
+	font-family: 'Reenie Beanie', cursive;
+	text-align: center;
+}
+
+.gifts{
+	background: url(../img/reddots.jpg);
+	background-position: center;
+	/*background-size: cover;*/
+	background-attachment: fixed;
+}
+
+.thankyounote{	
+	/*font-family: "lavanderia";*/
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 40px;	
+	text-align: center;
+}
+.ballons{
+	float: right;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
