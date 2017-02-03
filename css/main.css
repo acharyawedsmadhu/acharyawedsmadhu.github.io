@@ -2678,8 +2678,9 @@ footer p {
 }
 
 .gifts{
-	background: url(../img/reddots.jpg);
+	background: url(../img/pattern.png) top left repeat, url(../img/blue-butterfly-plain-website-back.jpg) center center no-repeat;
 	background-position: center;
+	background-size: auto, cover;
 	/*background-size: cover;*/
 	background-attachment: fixed;
 }
@@ -2689,6 +2690,7 @@ footer p {
 	font-family: 'Reenie Beanie', cursive;
 	font-size: 40px;	
 	text-align: center;
+	color: ghostwhite;
 }
 .ballons{
 	float: right;
@@ -2698,4 +2700,20 @@ footer p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display:         flex;
+}
+
+@media screen and (min-width: 767px) {
+	.v-align{
+		width:100%;
+		position: absolute;
+		text-align: center;
+		padding-top:100%;
+		-webkit-transform: translateY(-50%); /* child now centers itself relative to the midline based on own contents */
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-ms-filter: 'progid:DXImageTransform.Microsoft.Matrix(Dx=0,Dy=0)'; /*IE8 */
+		filter: progid:DXImageTransform.Microsoft.Matrix(Dx=0,Dy=0); /*IE6, IE7*/
+		transform: translateY(-50%);    
+	}
 }
