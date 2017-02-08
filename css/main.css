@@ -2636,7 +2636,7 @@ footer p {
 
 .ourstory{
 	/*background: url(../img/Floral-Grey-Seamless-Pattern-For-Website-Background.jpg); */
-	background: url(../img/watercolour-invite-back.jpg); 
+	background: url(../img/background-story.jpg); 
 	background-position: center;
 	background-attachment: fixed;
 	font-family: 'Flamenco', cursive;
@@ -2716,4 +2716,16 @@ footer p {
 		filter: progid:DXImageTransform.Microsoft.Matrix(Dx=0,Dy=0); /*IE6, IE7*/
 		transform: translateY(-50%);    
 	}
+}
+
+.thankyou{
+	/*font-family: lavanderia;*/
+	font-family: 'Qwigley';
+	font-family: 'Zeyada', cursive;
+	font-size: 5em;
+	color: dodgerblue;
+}
+.thanQ{
+	/*border-bottom: 2px solid black; */
+	/*width: 400px;*/
 }
