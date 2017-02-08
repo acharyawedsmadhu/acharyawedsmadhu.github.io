@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    var targetDateTime = (new Date('03-01-2017 11:54 PM')).getTime() / 1000;
+    var targetDateTime = (new Date('03-01-2017 11:46 PM')).getTime() / 1000;
     var currentDateTime = (new Date()).getTime() / 1000;
 
     $('#countdown15').ClassyCountdown({
