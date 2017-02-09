@@ -578,8 +578,8 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 }
 .main {
 	/*background: url(../img/pattern.png) top left repeat, url(../img/main-photo.png) center center no-repeat;*/
-	/*background: url(../img/DSC_0100-min.JPG) center center no-repeat;*/
-	background: url(../img/main-photo.png) center center no-repeat;
+	background: url(../img/bg001.jpg) center center no-repeat;
+	/*background: url(../img/main-photo.png) center center no-repeat;*/
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
