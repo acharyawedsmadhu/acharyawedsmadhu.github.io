@@ -577,10 +577,10 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 	transform: translateX(-50%);
 }
 .main {
-	/*background: url(../img/pattern.png) top left repeat, url(../img/main-photo.png) center center no-repeat;*/
-	background: url(../img/bg001.png) center center no-repeat;
+	background: url(../img/pattern.png) top left repeat, url(../img/IMG-20170210-WA0005.jpg) center center no-repeat;
+	/*background: url(../img/bg001.png) center center no-repeat;*/
 	/*background: url(../img/main-photo.png) center center no-repeat;*/
-	background-size: cover;
+	background-size: auto, cover;
 	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
