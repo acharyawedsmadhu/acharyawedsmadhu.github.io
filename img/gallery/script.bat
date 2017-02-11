@@ -1,0 +1,1 @@
+for /r . %%g in (*.jpg) do echo ^<a data-gallery="" title="Acharya weds Madhu Photo Album" href="img\gallery\%%~nxg"^>^<img src="img\gallery\%%~nxg"/^>^</a^>  >> test.txt

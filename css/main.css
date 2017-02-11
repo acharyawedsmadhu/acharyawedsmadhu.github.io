@@ -2601,7 +2601,7 @@ footer p {
 }
 
 .countdown-font{
-	font-family: 'Princess Sofia', cursive; font-size: 2.5em; color: #fff;
+	font-family: 'Princess Sofia', cursive; font-size: 2em; color: #fff;
 }
 
 .abouteachother{
@@ -2814,18 +2814,21 @@ footer p {
 	font-size: 16px;
 }
 
+
 #links > a {
   text-decoration: none;
+  text-align: center;  
 }
 
 #links > a > img {
-	width: 100px;
-	height: 100px;
-	/*transition: all 2s ease;*/
+	width: 280px;
+	height: 185px;
+	/*transition: all 1s ease;*/
 	opacity: 1;
 	padding: 3px;
 	background: transparent;
 	float: left;
+	
 }
 
 #links > a > img:hover {
