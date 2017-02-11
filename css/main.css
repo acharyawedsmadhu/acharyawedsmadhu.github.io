@@ -2667,17 +2667,20 @@ footer p {
 	background-position: center;
 	/*background-size: cover;*/
 	background-attachment: fixed;
-	/*font-family: 'Londrina Sketch', cursive;*/
-	/*font-family: 'Monofett', cursive;*/
-	font-size: 30px;
 	padding: 0px;
 	padding-top: 30px;
-	font-weight: bolder;
+	font-weight: bolder;		
+	font-size: 30px;
 }
 .gallery-pattern{
 	background-image: url(../img/pattern.png);
 	padding-top: 0px;
 }
+
+.gallery-panel>img{
+	padding: 30px;
+}
+
 .map-section{
 	padding: 0px;
 }
@@ -2815,6 +2818,19 @@ footer p {
   text-decoration: none;
 }
 
+#links > a > img {
+	width: 100px;
+	height: 100px;
+	/*transition: all 2s ease;*/
+	opacity: 1;
+	padding: 3px;
+	background: transparent;
+	float: left;
+}
+
+#links > a > img:hover {
+	opacity: 0.5;	
+}
 
 .ThanQ{
 	font-family: 'Qwigley';
