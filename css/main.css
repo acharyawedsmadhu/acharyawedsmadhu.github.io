@@ -577,10 +577,10 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 	transform: translateX(-50%);
 }
 .main {
-	background: url(../img/pattern.png) top left repeat, url(../img/IMG-20170210-WA0005.jpg) center center no-repeat;
-	/*background: url(../img/bg001.png) center center no-repeat;*/
-	/*background: url(../img/main-photo.png) center center no-repeat;*/
-	background-size: auto, cover;
+	/*background: url(../img/pattern.png) top left repeat, url(../img/IMG-20170210-WA0005.jpg) center center no-repeat;
+	background-size: auto, cover;*/
+	background: url(../img/DSC_0033.JPG) center center no-repeat;
+	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
@@ -2789,4 +2789,32 @@ footer p {
 	margin: 0 auto;
 	width: 120px;/*margin-top: -61px;*/
 	font-size: 14px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
 }
