@@ -2729,24 +2729,6 @@ footer p {
 	}
 }
 
-.thankyou{
-	/*font-family: lavanderia;*/
-	font-family: 'Qwigley';
-	font-family: 'Zeyada', cursive;
-	font-size: 5em;
-	color: dodgerblue;
-}
-.thanQ{
-	/*border-bottom: 2px solid black; */
-	/*width: 400px;*/
-}
-
-.thanQNote {
-	-webkit-transform: rotate(335deg); 
-    -moz-transform: rotate(335deg);  
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=37); /*for IE*/
-	-o-transform: rotate(335deg);
-}
 
 .box {
     border-radius: 3px;
@@ -2832,3 +2814,18 @@ footer p {
 #links > a {
   text-decoration: none;
 }
+
+
+.ThanQ{
+	font-family: 'Qwigley';
+	font-family: 'Zeyada', cursive;
+	font-size: 5em;
+	color: dodgerblue;
+	text-align: center;
+	/*height: 100vh;	*/
+	/*background: url(../img/pattern.png) top left repeat, url(../img/2butterflies.jpg) center center no-repeat;
+	background-size: auto, cover;*/
+	background: url(../img/bg10.gif);
+	background-size: auto;
+}
+
